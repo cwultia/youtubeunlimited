@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Retention Views, Likes & Subs On Autopilot - Youtube Unlimited</title>
+<title>Retention Views, Likes &amp; Subs On Autopilot - Youtube Unlimited</title>
 
 <!-- Stylesheet Files -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
@@ -23,73 +23,11 @@
 		$(document).ready(function(){
 			$("#main_wrapper a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'facebook',slideshow:5000, autoplay_slideshow: true});
 		});
-		</script>
-        
-        
-<!-- *************************************************************************
-*********************  THIS IS THE CONTACT FORM JS  **************************
-************************************************************************** -->
-
-<script type='text/javascript'>
-
-$(document).ready(function(){
-	var active_color = '#929191'; // Colour of user provided text
-	var inactive_color = '#929191'; // Colour of default text
-        	  $("input.default-value").css("color", inactive_color);
-        	  var default_values = new Array();
-        	  $("input.default-value").focus(function() {
-        	    if (!default_values[this.id]) {
-        	      default_values[this.id] = this.value;
-        	    }
-        	    if (this.value == default_values[this.id]) {
-        	      this.value = '';
-        	      this.style.color = active_color;
-        	    }
-        	    $(this).blur(function() {
-        	      if (this.value == '') {
-        	        this.style.color = inactive_color;
-        	        this.value = default_values[this.id];
-        	      }
-        	    });
-        	  });
-	
-        	$('#contactform').submit(function(){
-        
-            formvalues = $("#contactform").serialize();
-        
-            $.ajax({
-                type: "POST",
-                url: "mailer.php",
-                data: formvalues,
-                dataType: "json",
-                success: function(data) {
-                    if (data.success==1) {
-                        $("#contactwrapper").slideUp(750,function() {
-                            $('#contactmessage').html('Thanks! Please check your email to confirm your subscription.');
-                            });
-                    }
-                    else{
-                        if (data.invalid_email==1) { $('#contact_email').addClass("form_error"); }
-                            else { $('#contact_email').removeClass("form_error"); }
-                            
-                   }
-            }
-            });
-        	    return false; 
-        	});
-        
-        });
 </script>
-
-
-<!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  --></head>
+        
+</head>
 
 <body>
-
-<!-- *************************************************************************
-*************************  TIPSY SCRIPT LEAVE HERE!  *************************
-************************************************************************** -->
-
       <script type='text/javascript'>
   $(function() {
     
@@ -113,11 +51,9 @@ $(document).ready(function(){
   });
 </script>
 
-<div id="main_wrapper"><!-- Start of main_wrapper -->
+<div id="main_wrapper">
 
-
-
-	<div id="top_logo"><!-- Start of top_logo -->
+	<div id="top_logo">
   		<a href="/" alt="Youtube Unlimited"><img src="img/top_logo.png" width="155" height="46" alt="qloud landing page template" /></a>
   	</div><!-- End of top_logo -->
     
@@ -125,12 +61,12 @@ $(document).ready(function(){
     	<h1>Youtube Unlimited</h1>
         
   <div class="intro_text">
-        2 Main Methods: The "Youtube SEO Method" and the "Real People Method". Both methods have the same target to drive Real & Targeted youtube traffic on Autopilot.
+        2 Main Methods: The "Youtube SEO Method" and the "Real People Method". Both methods have the same target to drive Real &amp; Targeted youtube traffic on Autopilot.
         </div>
         
 		<div class="download_button"><!-- Start of download_button -->
-        	<a href="download.html" title="Buy Today With Confidence" class="fade"><img src="img/download_button_large.png" width="237" height="54" alt="Download Now" /></a>
-            <p>Be fast and get it cheaper 50% OFF for $3.95</p>
+        	<a href="download.html" title="Download Today With Confidence" class="fade"><img src="img/download_button_large.png" width="237" height="54" alt="Download Now" /></a>
+            <p>Don't lose this opportunity, be fast and get it.</p>
    	  	</div><!-- End of download_button -->
       
       <div class="benefits_wrapper"><!-- Start of benefits_wrapper -->
@@ -222,24 +158,18 @@ $(document).ready(function(){
     
     <div class="full_width"><!-- Start of full_width -->
     
-    <span class="orange_title">Checkout</span> <span class="gray_title">The Lightbox!</span>
+    <span class="orange_title">Here are your</span> <span class="gray_title">Killer Bonuses!</span>
     
     <ul class="gallery">
-			<li><a href="img/gallery_image_big.jpg" rel="prettyPhoto[gallery1]" title="Click to enlarge this image!" class="fade"><img src="img/gallery_image.jpg" width="300" height="141" alt="Some great title" /></a></li>
-			<li><a href="img/gallery_image_big.jpg" rel="prettyPhoto[gallery1]" title="This can be any text you want!" class="fade"><img src="img/gallery_image.jpg" width="300" height="141" alt="Some great title" /></a></li>
-            <li><a href="img/gallery_image_big.jpg" rel="prettyPhoto[gallery1]" title="Click to enlarge this image!" class="fade"><img src="img/gallery_image.jpg" width="300" height="141" alt="Some great title" /></a></li>
+			<li><a href="img/gallery_image_big.jpg" rel="prettyPhoto[gallery1]" title="Lifetime Email Support" class="fade"><img src="img/gallery_image.jpg" width="300" height="141" alt="Lifetime Email Support" /></a></li>
+			<li><a href="img/gallery_image_big.jpg" rel="prettyPhoto[gallery1]" title="Personal Custom Made Scripts" class="fade"><img src="img/gallery_image.jpg" width="300" height="141" alt="Personal Custom Made Scripts" /></a></li>
+            <li><a href="img/gallery_image_big.jpg" rel="prettyPhoto[gallery1]" title="Multiple Scaling-it-up Series" class="fade"><img src="img/gallery_image.jpg" width="300" height="141" alt="Multiple Scaling-it-up Series" /></a></li>
 	</ul>
     
     </div><!-- Start of full_width -->
     
 
 </div><!-- End of main_wrapper -->
-
-
-<!-- *************************************************************************
-******************************  FOOTER SECTION  ******************************
-************************************************************************** -->
-
 
 <!-- start of footer wrapper -->
 <div id="footer_wrapper">
@@ -271,7 +201,7 @@ $(document).ready(function(){
 <div id="footer_middle">
 	<img src="img/bottom_logo.png" width="155" height="45" alt="logo" />
     <br /><br />
-    &copy; Copyright 2011
+    Copyright &copy; 2014 YoutubeUnlimited. All right reserved.
 </div><!-- end of footer middle -->
 
 <!-- start of footer right -->
