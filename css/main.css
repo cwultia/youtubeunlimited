@@ -139,20 +139,20 @@ div.hr {
 	font-size:16px;
 	color: #525252;
 	line-height: 18px;
-	margin-top: 25px;
+	margin-top: 10px;
 	font-weight: normal;
 	}
 	
 #top_logo {
 	float: left;
-	width: 200px;
+	width: 30%;
 	height: 50px;
 	margin-top: 15px;
 }
 
 #top_phone {
 	float: right;
-	width: 400px;
+	width: 70%;
 	font-family:QlassikBoldRegular;
 	font-size:24px;
 	color: #ded7cf;
